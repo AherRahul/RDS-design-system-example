@@ -1,0 +1,9 @@
+/* @import './base.css'; */
+@import '@aherrahul/design-system/dist/style.css';
+
+* {
+    font-family: Satoshi, Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+    margin: 0px !important;
+}
