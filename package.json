@@ -11,12 +11,12 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "@aherrahul/design-system": "^1.0.2",
-    "@sysvale/cuida": "^3.20.0",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "@aherrahul/design-system": "^1.1.4"
   },
   "devDependencies": {
+    "@sysvale/cuida": "^3.38.2",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.5",
     "@vitejs/plugin-vue": "^5.0.4",

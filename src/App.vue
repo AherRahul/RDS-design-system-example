@@ -1,74 +1,259 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
 
 <template>
   <header>
-    <cds-page-layout
-      v-bind="{
-        variant: 'red',
-        light: true,
-        user: {
-          name: 'Joana Mendes',
-          role: 'Administrator',
-          picture: 'https://this-person-does-not-exist.com/img/avatar-gen83fa18cdcd216e7220794a23e76fe0dc.jpg'
-        },
-        logos: {
-          default: 'https://rahulaher.netlify.app/img/logo/word-black-colored.svg',
-          collapsed: 'https://rahulaher.netlify.app/img/logo/glyph-black-colored.svg'
-        },
-        navigationActiveItem: {
-          key: 'home',
-          label: 'Home',
-          route: {
-            name: 'home'
-          }
-        },
-        collapsibleSideBar: true,
-        sideBarItems: [
-          {
-            label: 'Start',
-            icon: 'home-outline',
-            type: 'route',
-            route: {
-              path: '/',
-              name: 'home'
-            }
-          },
-          {
-            label: 'Booking Center',
-            icon: 'calendar-outline',
-            type: 'route',
-            route: {
-              path: '/about',
-              name: 'about'
-            }
-          },
-        ],
-        navigationItems: [
-          {
-            key: 'dashboard',
-            label: 'Dashboard',
-            route: {
-              name: 'home'
-            }
-          },
-          {
-            key: 'about',
-            label: 'Start',
-            route: {
-              name: 'about'
-            }
-          },
-        ],
-      }"
-      @click="true"
-    />
+    <rds-page-layout
+      v-bind="args"
+      @click="logClick"
+    >
+      <template #default>
+				<router-view />
+			</template>
+    </rds-page-layout>
   </header>
-
-  <!-- <RouterView /> -->
 </template>
 
-<style scoped>
+
+<script setup lang="ts">
+// imports
+import { RouterLink, RouterView, createRouter, createWebHistory } from 'vue-router';
+import { ref } from 'vue';
+import HomeView from './views/HomeView.vue';
+import AboutView from './views/AboutView.vue';
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: HomeView
+    },
+    {
+      path: '/about',
+      name: 'about',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: AboutView
+    }
+  ]
+})
+
+
+// data
+const args = ref({
+  variant: 'red',
+  light: false,
+  user: {
+    "name": "Joana Mendes",
+    "role": "Administrator",
+    "picture": "https://i1.rgstatic.net/ii/profile.image/834217822924800-1575904436366_Q128/Joana-Mendes-13.jpg"
+  },
+  collapsibleSideBar: true,
+  sideBarItems: [
+    {
+      "label": "Dashboard",
+      "icon": "dashboard-outline",
+      "type": "route",
+      "route": {
+          "path": "/home",
+          "name": "home"
+      }
+    },
+    {
+      "label": "Service",
+      "icon": "clipboard-text-outline",
+      "type": "route",
+      "route": {
+          "path": "/home",
+          "name": "home"
+      }
+    },
+    {
+      "label": "Links",
+      "icon": "link-outline",
+      "items": [
+        {
+          "label": "Panel (Tv)",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          },
+          "type": "external"
+        },
+        {
+          "label": "Totem",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          },
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "label": "Reports",
+      "icon": "printer-outline",
+      "type": "route",
+      "route": {
+          "path": "/home",
+          "name": "home"
+      }
+    },
+    {
+      "label": "Settings",
+      "icon": "settings-outline",
+      "type": "route",
+      "items": [
+        {
+          "label": "Panel (Tv)",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          }
+        },
+        {
+          "label": "Totem",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          }
+        },
+        {
+          "label": "Services",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          }
+        },
+        {
+          "label": "Categories",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          }
+        },
+        {
+          "label": "Priorities",
+          "route": {
+          "path": "/home",
+          "name": "home"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Support",
+      "icon": "lifebuoy-outline",
+      "type": "link",
+      "route": {
+          "path": "/home",
+          "name": "home"
+      }
+    }
+  ],
+  sideBarActiveItem: {
+    "label": "Settings",
+    "icon": "settings-outline",
+    "type": "route",
+    "items": [
+      {
+        "label": "Panel (Tv)",
+        "route": {
+          "path": "/home",
+          "name": "home"
+        }
+      },
+      {
+        "label": "Totem",
+        "route": {
+          "path": "/home",
+          "name": "home"
+        }
+      },
+      {
+        "label": "Services",
+        "route": {
+          "path": "/home",
+          "name": "home"
+        }
+      },
+      {
+        "label": "Categories",
+        "route": {
+          "path": "/home",
+          "name": "home"
+        }
+      },
+      {
+        "label": "Priorities",
+        "route": {
+          "path": "/home",
+          "name": "home"
+        }
+      }
+    ]
+  },
+  navigationActiveItem: {
+    "key": "home",
+    "label": "Start",
+    "route": {
+      "name": "home"
+    }
+  },
+  navigationItems: [
+    {
+      "key": "home",
+      "label": "Home",
+      "route": {
+        "name": "home"
+      }
+    },
+    {
+      "key": "home",
+      "label": "Home2",
+      "route": {
+        "name": "home"
+      }
+    },
+    {
+      "key": "reports",
+      "label": "Reports",
+      "subitems": [
+        {
+          "key": "productivity",
+          "label": "Productivity report",
+          "route": {
+            "name": "about"
+          }
+        },
+        {
+          "key": "timesheet",
+          "label": "Time sheet",
+          "route": {
+            "name": "about"
+          }
+        }
+      ]
+    }
+  ],
+  logos: {
+    "default": "https://rahulaher.netlify.app/img/logo/word-white-colored.svg",
+    "collapsed": "https://rahulaher.netlify.app/img/logo/glyph-black-colored.svg"
+  }
+});
+
+const logClick = (event: Event) => {
+  console.log(event);
+};
+
+</script>
+
+<style>
+/*  */
+
+.side-bar--light {
+  overflow-y: auto;
+}
 </style>
+

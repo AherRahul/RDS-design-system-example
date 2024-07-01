@@ -1,0 +1,5 @@
+[build]
+  publish = "dist"
+  command = "NODE_OPTIONS=--max-old-space-size=4096 npm run build"
+[build.environment]
+  NODE_VERSION = "20"

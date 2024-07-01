@@ -2,8 +2,10 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
-import RDS from "@aherrahul/design-system";
+import router from './router';
+// @ts-ignore
+import RDS from '@aherrahul/design-system';
+import '@aherrahul/design-system/dist/style.css';
 
 const app = createApp(App)
 
