@@ -58,7 +58,7 @@ const args = ref({
       "route": {
           "path": "/home",
           "name": "home"
-      }
+        }
     },
     {
       "label": "Service",
@@ -67,7 +67,7 @@ const args = ref({
       "route": {
           "path": "/home",
           "name": "home"
-      }
+        }
     },
     {
       "label": "Links",
@@ -76,16 +76,16 @@ const args = ref({
         {
           "label": "Panel (Tv)",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           },
           "type": "external"
         },
         {
           "label": "Totem",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           },
           "type": "external"
         }
@@ -98,7 +98,7 @@ const args = ref({
       "route": {
           "path": "/home",
           "name": "home"
-      }
+        }
     },
     {
       "label": "Settings",
@@ -108,36 +108,36 @@ const args = ref({
         {
           "label": "Panel (Tv)",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           }
         },
         {
           "label": "Totem",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           }
         },
         {
           "label": "Services",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           }
         },
         {
           "label": "Categories",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           }
         },
         {
           "label": "Priorities",
           "route": {
-          "path": "/home",
-          "name": "home"
+            "path": "/home",
+            "name": "home"
           }
         }
       ]
@@ -210,13 +210,6 @@ const args = ref({
       }
     },
     {
-      "key": "home",
-      "label": "Home2",
-      "route": {
-        "name": "home"
-      }
-    },
-    {
       "key": "reports",
       "label": "Reports",
       "subitems": [
@@ -252,8 +245,9 @@ const logClick = (event: Event) => {
 <style>
 /*  */
 
-.side-bar--light {
+.side-bar--dark {
   overflow-y: auto;
+  padding: 12px 12px !important;
 }
 </style>
 
