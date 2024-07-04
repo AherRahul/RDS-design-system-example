@@ -11,9 +11,9 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@aherrahul/design-system": "^1.1.5",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "@aherrahul/design-system": "^1.1.4"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@sysvale/cuida": "^3.38.2",
