@@ -19,6 +19,7 @@ import { RouterLink, RouterView, createRouter, createWebHistory } from 'vue-rout
 import { ref } from 'vue';
 import HomeView from './views/HomeView.vue';
 import AboutView from './views/AboutView.vue';
+import DashboardView from './views/DashboardView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +36,14 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: AboutView
+    },
+    {
+      path: '/dashboard',
+      name: 'dashboard',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: DashboardView
     }
   ]
 })
@@ -56,8 +65,8 @@ const args = ref({
       "icon": "dashboard-outline",
       "type": "route",
       "route": {
-          "path": "/home",
-          "name": "home"
+          "path": "/dashboard",
+          "name": "dashboard"
         }
     },
     {

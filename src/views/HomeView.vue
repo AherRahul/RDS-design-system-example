@@ -125,7 +125,4 @@
   }
 }
 
-.row {
-  display: flex;
-}
 </style>
