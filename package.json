@@ -18,8 +18,10 @@
   "devDependencies": {
     "@sysvale/cuida": "^3.38.2",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.12.5",
+    "@types/node": "^20.14.10",
+    "@types/vue": "^2.0.0",
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/cli-plugin-typescript": "^5.0.8",
     "@vue/tsconfig": "^0.5.1",
     "npm-run-all2": "^6.1.2",
     "typescript": "~5.4.0",
