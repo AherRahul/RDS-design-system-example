@@ -22,7 +22,7 @@
                 "May"
             ],
             variant: 'dark',
-            isVisiblePointNames: true,
+            isVisiblePointNames: false,
             chartData: [
                 {
                     "name": "Echocardiogram",

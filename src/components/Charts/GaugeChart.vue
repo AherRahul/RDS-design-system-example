@@ -2,7 +2,6 @@
     <div>
         <rds-gauge-chart
             :variant="variant"
-            :size="size"
             :value="value"
             :target="target"
             :subtitle="subtitle"
@@ -24,7 +23,7 @@
             value: 79,
             target: 85,
             variant: 'dark',
-            size: 250,
+            size: 200,
             subtitle: 'Targeted Sell' 
         }
     },

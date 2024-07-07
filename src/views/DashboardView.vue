@@ -8,14 +8,14 @@
                 <div class="dashboard-main">
                     <rds-grid>
                         <rds-row>
-                            <rds-col cols="8" offset="0">
+                            <rds-col cols="8" offset="0" colsAtS="12" colsAtM="12" colsAtL="8" colsAtXl="8">
                                 <h3 style="text-align: center;"> Bar chart</h3>
                                 <bar-chart />
                             </rds-col>
                             
                             <rds-divider :vertical="true" />
 
-                            <rds-col cols="4">
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <h3 style="text-align: center;">Gauge chart</h3>
                                 <gauge-chart />
                             </rds-col>
@@ -26,14 +26,14 @@
 
                     <rds-grid>
                         <rds-row style="margin-top: 3%;">
-                            <rds-col cols="8" offset="0">
+                            <rds-col cols="8" offset="0"  colsAtS="12" colsAtM="12" colsAtL="8" colsAtXl="8">
                                 <h3 style="text-align: center;"> Line chart</h3>
                                 <line-chart />
                             </rds-col>
                             
                             <rds-divider :vertical="true" />
 
-                            <rds-col cols="4">
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <h3 style="text-align: center;">Pie chart</h3>
                                 <pie-chart />
                             </rds-col>
@@ -44,14 +44,14 @@
 
                     <rds-grid>
                         <rds-row style="margin-top: 3%;">
-                            <rds-col cols="8" offset="0">
+                            <rds-col cols="8" offset="0" colsAtS="12" colsAtM="12" colsAtL="8" colsAtXl="8">
                                 <h3 style="text-align: center;"> Stack Bar chart</h3>
                                 <stacked-bar-chart />
                             </rds-col>
                             
                             <rds-divider :vertical="true" />
 
-                            <rds-col cols="4">
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <h3 style="text-align: center;">Polar chart</h3>
                                 <polar-area-chart />
                             </rds-col>
@@ -62,19 +62,19 @@
 
                     <rds-grid class="mt(10)" style="margin-top: 3%;">
                         <rds-row>
-                            <rds-col cols="4">
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <donut-chart-1 />
                             </rds-col>
 
                             <rds-divider :vertical="true" />
 
-                            <rds-col cols="4">
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <donut-chart-2 />
                             </rds-col>
                             
                             <rds-divider :vertical="true" />
 
-                            <rds-col cols="4">
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <radial-bar-chart />
                             </rds-col>
                         </rds-row>

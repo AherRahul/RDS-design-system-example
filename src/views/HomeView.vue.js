@@ -72,9 +72,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_19 = __VLS_asFunctionalComponent(__VLS_18, new __VLS_18({ cols: ("6"), offset: ("0"), }));
-    const __VLS_20 = __VLS_19({ cols: ("6"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_19));
-    ({}({ cols: ("6"), offset: ("0"), }));
+    const __VLS_19 = __VLS_asFunctionalComponent(__VLS_18, new __VLS_18({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
+    const __VLS_20 = __VLS_19({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }, ...__VLS_functionalComponentArgsRest(__VLS_19));
+    ({}({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h4, __VLS_intrinsicElements.h4)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("mt-3") }, });
@@ -90,9 +90,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_25 = __VLS_asFunctionalComponent(__VLS_24, new __VLS_24({ cols: ("6"), offset: ("0"), }));
-    const __VLS_26 = __VLS_25({ cols: ("6"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_25));
-    ({}({ cols: ("6"), offset: ("0"), }));
+    const __VLS_25 = __VLS_asFunctionalComponent(__VLS_24, new __VLS_24({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
+    const __VLS_26 = __VLS_25({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }, ...__VLS_functionalComponentArgsRest(__VLS_25));
+    ({}({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h4, __VLS_intrinsicElements.h4)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("mt-3") }, });
@@ -138,9 +138,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_43 = __VLS_asFunctionalComponent(__VLS_42, new __VLS_42({ cols: ("6"), offset: ("0"), }));
-    const __VLS_44 = __VLS_43({ cols: ("6"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_43));
-    ({}({ cols: ("6"), offset: ("0"), }));
+    const __VLS_43 = __VLS_asFunctionalComponent(__VLS_42, new __VLS_42({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
+    const __VLS_44 = __VLS_43({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }, ...__VLS_functionalComponentArgsRest(__VLS_43));
+    ({}({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h4, __VLS_intrinsicElements.h4)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("mt-3") }, });
@@ -156,9 +156,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_49 = __VLS_asFunctionalComponent(__VLS_48, new __VLS_48({ cols: ("6"), offset: ("0"), }));
-    const __VLS_50 = __VLS_49({ cols: ("6"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_49));
-    ({}({ cols: ("6"), offset: ("0"), }));
+    const __VLS_49 = __VLS_asFunctionalComponent(__VLS_48, new __VLS_48({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
+    const __VLS_50 = __VLS_49({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }, ...__VLS_functionalComponentArgsRest(__VLS_49));
+    ({}({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h4, __VLS_intrinsicElements.h4)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("mt-3") }, });
@@ -204,9 +204,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_67 = __VLS_asFunctionalComponent(__VLS_66, new __VLS_66({ cols: ("6"), offset: ("0"), }));
-    const __VLS_68 = __VLS_67({ cols: ("6"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_67));
-    ({}({ cols: ("6"), offset: ("0"), }));
+    const __VLS_67 = __VLS_asFunctionalComponent(__VLS_66, new __VLS_66({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
+    const __VLS_68 = __VLS_67({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }, ...__VLS_functionalComponentArgsRest(__VLS_67));
+    ({}({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("heading-3") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h4, __VLS_intrinsicElements.h4)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("mt(10) font-weight-bold") }, });
@@ -219,9 +219,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol,];
-    const __VLS_73 = __VLS_asFunctionalComponent(__VLS_72, new __VLS_72({ cols: ("6"), offset: ("0"), }));
-    const __VLS_74 = __VLS_73({ cols: ("6"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_73));
-    ({}({ cols: ("6"), offset: ("0"), }));
+    const __VLS_73 = __VLS_asFunctionalComponent(__VLS_72, new __VLS_72({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
+    const __VLS_74 = __VLS_73({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }, ...__VLS_functionalComponentArgsRest(__VLS_73));
+    ({}({ cols: ("6"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("6"), colsAtXl: ("6"), }));
     const __VLS_77 = __VLS_pickFunctionalComponentCtx(__VLS_72, __VLS_74);
     (__VLS_65.slots).default;
     const __VLS_65 = __VLS_pickFunctionalComponentCtx(__VLS_60, __VLS_62);

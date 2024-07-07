@@ -10,7 +10,7 @@ export default (await import('vue')).defineComponent({
                 "May"
             ],
             variant: 'dark',
-            isVisiblePointNames: true,
+            isVisiblePointNames: false,
             chartData: [
                 {
                     "name": "Echocardiogram",

@@ -5,7 +5,7 @@ export default (await import('vue')).defineComponent({
             value: 79,
             target: 85,
             variant: 'dark',
-            size: 250,
+            size: 200,
             subtitle: 'Targeted Sell'
         };
     },
@@ -32,16 +32,16 @@ function __VLS_template() {
     __VLS_components.rdsGaugeChart;
     // @ts-ignore
     [RdsGaugeChart, RdsGaugeChart,];
-    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ variant: ((__VLS_ctx.variant)), size: ((__VLS_ctx.size)), value: ((__VLS_ctx.value)), target: ((__VLS_ctx.target)), subtitle: ((__VLS_ctx.subtitle)), }));
-    const __VLS_2 = __VLS_1({ variant: ((__VLS_ctx.variant)), size: ((__VLS_ctx.size)), value: ((__VLS_ctx.value)), target: ((__VLS_ctx.target)), subtitle: ((__VLS_ctx.subtitle)), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
-    ({}({ variant: ((__VLS_ctx.variant)), size: ((__VLS_ctx.size)), value: ((__VLS_ctx.value)), target: ((__VLS_ctx.target)), subtitle: ((__VLS_ctx.subtitle)), }));
+    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ variant: ((__VLS_ctx.variant)), value: ((__VLS_ctx.value)), target: ((__VLS_ctx.target)), subtitle: ((__VLS_ctx.subtitle)), }));
+    const __VLS_2 = __VLS_1({ variant: ((__VLS_ctx.variant)), value: ((__VLS_ctx.value)), target: ((__VLS_ctx.target)), subtitle: ((__VLS_ctx.subtitle)), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
+    ({}({ variant: ((__VLS_ctx.variant)), value: ((__VLS_ctx.value)), target: ((__VLS_ctx.target)), subtitle: ((__VLS_ctx.subtitle)), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.template, __VLS_intrinsicElements.template)({});
     {
         (__VLS_5.slots).popover;
         __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ style: ({}) }, });
         __VLS_elementAsFunction(__VLS_intrinsicElements.strong, __VLS_intrinsicElements.strong)({});
         // @ts-ignore
-        [variant, size, value, target, subtitle,];
+        [variant, value, target, subtitle,];
         __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ style: ({}) }, });
         __VLS_elementAsFunction(__VLS_intrinsicElements.strong, __VLS_intrinsicElements.strong)({});
         __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ style: ({}) }, });

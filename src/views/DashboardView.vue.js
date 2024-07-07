@@ -73,9 +73,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_13 = __VLS_asFunctionalComponent(__VLS_12, new __VLS_12({ cols: ("8"), offset: ("0"), }));
-    const __VLS_14 = __VLS_13({ cols: ("8"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_13));
-    ({}({ cols: ("8"), offset: ("0"), }));
+    const __VLS_13 = __VLS_asFunctionalComponent(__VLS_12, new __VLS_12({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }));
+    const __VLS_14 = __VLS_13({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }, ...__VLS_functionalComponentArgsRest(__VLS_13));
+    ({}({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({ ...{ style: ({}) }, });
     const __VLS_18 = {}.BarChart;
     ({}.BarChart);
@@ -108,9 +108,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_31 = __VLS_asFunctionalComponent(__VLS_30, new __VLS_30({ cols: ("4"), }));
-    const __VLS_32 = __VLS_31({ cols: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_31));
-    ({}({ cols: ("4"), }));
+    const __VLS_31 = __VLS_asFunctionalComponent(__VLS_30, new __VLS_30({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
+    const __VLS_32 = __VLS_31({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_31));
+    ({}({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({ ...{ style: ({}) }, });
     const __VLS_36 = {}.GaugeChart;
     ({}.GaugeChart);
@@ -171,9 +171,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_61 = __VLS_asFunctionalComponent(__VLS_60, new __VLS_60({ cols: ("8"), offset: ("0"), }));
-    const __VLS_62 = __VLS_61({ cols: ("8"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_61));
-    ({}({ cols: ("8"), offset: ("0"), }));
+    const __VLS_61 = __VLS_asFunctionalComponent(__VLS_60, new __VLS_60({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }));
+    const __VLS_62 = __VLS_61({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }, ...__VLS_functionalComponentArgsRest(__VLS_61));
+    ({}({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({ ...{ style: ({}) }, });
     const __VLS_66 = {}.LineChart;
     ({}.LineChart);
@@ -206,9 +206,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_79 = __VLS_asFunctionalComponent(__VLS_78, new __VLS_78({ cols: ("4"), }));
-    const __VLS_80 = __VLS_79({ cols: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_79));
-    ({}({ cols: ("4"), }));
+    const __VLS_79 = __VLS_asFunctionalComponent(__VLS_78, new __VLS_78({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
+    const __VLS_80 = __VLS_79({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_79));
+    ({}({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({ ...{ style: ({}) }, });
     const __VLS_84 = {}.PieChart;
     ({}.PieChart);
@@ -269,9 +269,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_109 = __VLS_asFunctionalComponent(__VLS_108, new __VLS_108({ cols: ("8"), offset: ("0"), }));
-    const __VLS_110 = __VLS_109({ cols: ("8"), offset: ("0"), }, ...__VLS_functionalComponentArgsRest(__VLS_109));
-    ({}({ cols: ("8"), offset: ("0"), }));
+    const __VLS_109 = __VLS_asFunctionalComponent(__VLS_108, new __VLS_108({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }));
+    const __VLS_110 = __VLS_109({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }, ...__VLS_functionalComponentArgsRest(__VLS_109));
+    ({}({ cols: ("8"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("8"), colsAtXl: ("8"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({ ...{ style: ({}) }, });
     const __VLS_114 = {}.StackedBarChart;
     ({}.StackedBarChart);
@@ -304,9 +304,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_127 = __VLS_asFunctionalComponent(__VLS_126, new __VLS_126({ cols: ("4"), }));
-    const __VLS_128 = __VLS_127({ cols: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_127));
-    ({}({ cols: ("4"), }));
+    const __VLS_127 = __VLS_asFunctionalComponent(__VLS_126, new __VLS_126({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
+    const __VLS_128 = __VLS_127({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_127));
+    ({}({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({ ...{ style: ({}) }, });
     const __VLS_132 = {}.PolarAreaChart;
     ({}.PolarAreaChart);
@@ -367,9 +367,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_157 = __VLS_asFunctionalComponent(__VLS_156, new __VLS_156({ cols: ("4"), }));
-    const __VLS_158 = __VLS_157({ cols: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_157));
-    ({}({ cols: ("4"), }));
+    const __VLS_157 = __VLS_asFunctionalComponent(__VLS_156, new __VLS_156({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
+    const __VLS_158 = __VLS_157({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_157));
+    ({}({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
     const __VLS_162 = {}.DonutChart1;
     ({}.DonutChart1);
     __VLS_components.DonutChart1;
@@ -401,9 +401,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_175 = __VLS_asFunctionalComponent(__VLS_174, new __VLS_174({ cols: ("4"), }));
-    const __VLS_176 = __VLS_175({ cols: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_175));
-    ({}({ cols: ("4"), }));
+    const __VLS_175 = __VLS_asFunctionalComponent(__VLS_174, new __VLS_174({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
+    const __VLS_176 = __VLS_175({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_175));
+    ({}({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
     const __VLS_180 = {}.DonutChart2;
     ({}.DonutChart2);
     __VLS_components.DonutChart2;
@@ -435,9 +435,9 @@ function __VLS_template() {
     __VLS_components.rdsCol;
     // @ts-ignore
     [RdsCol, RdsCol,];
-    const __VLS_193 = __VLS_asFunctionalComponent(__VLS_192, new __VLS_192({ cols: ("4"), }));
-    const __VLS_194 = __VLS_193({ cols: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_193));
-    ({}({ cols: ("4"), }));
+    const __VLS_193 = __VLS_asFunctionalComponent(__VLS_192, new __VLS_192({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
+    const __VLS_194 = __VLS_193({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }, ...__VLS_functionalComponentArgsRest(__VLS_193));
+    ({}({ cols: ("4"), offset: ("0"), colsAtS: ("12"), colsAtM: ("12"), colsAtL: ("4"), colsAtXl: ("4"), }));
     const __VLS_198 = {}.RadialBarChart;
     ({}.RadialBarChart);
     __VLS_components.RadialBarChart;

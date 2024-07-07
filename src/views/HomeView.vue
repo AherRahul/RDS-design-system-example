@@ -26,7 +26,7 @@
           <div class="col">
             <rds-grid>
               <rds-row>
-                <rds-col cols="6" offset="0">
+                <rds-col cols="6" offset="0" colsAtS="12" colsAtM="12" colsAtL="6" colsAtXl="6">
                   <div>
                     <h4>Context over consistency</h4>
                   </div>
@@ -39,7 +39,7 @@
                     </p>
                   </div>
                 </rds-col>
-                <rds-col cols="6" offset="0">
+                <rds-col cols="6" offset="0" colsAtS="12" colsAtM="12" colsAtL="6" colsAtXl="6">
                   <div>
                     <h4>Usable</h4>
                   </div>
@@ -61,7 +61,7 @@
           <div class="col">
             <rds-grid>
               <rds-row>
-                <rds-col cols="6" offset="0">
+                <rds-col cols="6" offset="0" colsAtS="12" colsAtM="12" colsAtL="6" colsAtXl="6">
                   <div>
                     <h4>Inclusive</h4>
                   </div>
@@ -72,7 +72,7 @@
                     </p>
                   </div>
                 </rds-col>
-                <rds-col cols="6" offset="0">
+                <rds-col cols="6" offset="0" colsAtS="12" colsAtM="12" colsAtL="6" colsAtXl="6">
                   <div>
                     <h4>Direct</h4>
                   </div>
@@ -92,7 +92,7 @@
           <div class="col">
             <rds-grid>
               <rds-row>
-                <rds-col cols="6" offset="0">
+                <rds-col cols="6" offset="0" colsAtS="12" colsAtM="12" colsAtL="6" colsAtXl="6">
                   <div class="heading-3">
                     <h4>Autonomy through empowerment</h4>
                   </div>
@@ -104,7 +104,7 @@
                     </p>
                   </div>
                 </rds-col>
-                <rds-col cols="6" offset="0" />
+                <rds-col cols="6" offset="0" colsAtS="12" colsAtM="12" colsAtL="6" colsAtXl="6" />
               </rds-row>
             </rds-grid>
           </div>
