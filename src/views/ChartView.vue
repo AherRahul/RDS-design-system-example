@@ -2,7 +2,24 @@
     <div class="dashboard">
         <div class="container-fluid">
             <div class="dashboard-header">
+                <rds-row>
+                    <div class="header-content">
+                        <h1>RDS - Chart's</h1>
+                        <p>
+                            The charts page in our design system showcases a variety of chart components 
+                            built with Vue.js and documented using Storybook. These components are designed 
+                            to provide robust, customizable, and responsive data visualization solutions 
+                            for your applications. 
+                        </p>
 
+                        <p>
+                            Explore the different chart components and their configurations to find the best 
+                            fit for your data visualization needs. Each component is accompanied by comprehensive
+                             documentation and examples to help you get started quickly and efficiently.
+                        </p>
+                    </div>
+                </rds-row>
+                <rds-divider :width="0" style="margin-top: 2%; margin-bottom: 2%;" />
             </div>
             <div class="dashboard-content">
                 <div class="dashboard-main">
@@ -99,6 +116,8 @@
   
   export default {
     name: 'Dashboard',
+
+    // components
     components: {
       BarChart,
       DonutChart1,
@@ -110,6 +129,8 @@
       PolarAreaChart,
       RadialBarChart
     },
+
+    // component data
     data() {
       return {
         showRadialChart: false,
@@ -118,7 +139,8 @@
   }
   </script>
   
-  <style scoped>
+  <style lang="scss" scoped>
+
     @media (min-width: 1024px) {
         .dashboard {
             min-height: 100%;
@@ -126,11 +148,24 @@
             align-items: center;
         }
     }
+    
+    .mt-3 {
+        margin-top: 2%;
+    }
+
+    .mb-3 {
+        margin-bottom: 2%;
+    }
+
+    .header-content {
+        padding: 1%;
+    }
 
     .radial-chart-container {
         position: relative;
         height: 250px;
     }
+
     .center-loader {
         position: absolute;
         top: 55%;
