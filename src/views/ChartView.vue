@@ -30,8 +30,6 @@
                                 <h3 style="text-align: center;"> Line chart</h3>
                                 <line-chart />
                             </rds-col>
-                            
-                            <rds-divider :vertical="true" />
 
                             <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <h3 style="text-align: center;">Pie chart</h3>
@@ -48,8 +46,6 @@
                                 <h3 style="text-align: center;"> Stack Bar chart</h3>
                                 <stacked-bar-chart />
                             </rds-col>
-                            
-                            <rds-divider :vertical="true" />
 
                             <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <h3 style="text-align: center;">Polar chart</h3>
@@ -67,15 +63,11 @@
                                 <donut-chart-1 />
                             </rds-col>
 
-                            <rds-divider :vertical="true" />
-
                             <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
                                 <h3 style="text-align: center;"> Donut chart (Blue Them)</h3>
                                 <donut-chart-2 />
                             </rds-col>
                             
-                            <rds-divider :vertical="true" />
-
                             <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4" class="radial-chart-container">
                                 <h3 style="text-align: center;"> Radial chart</h3>
                                 <radial-bar-chart v-if="showRadialChart" />

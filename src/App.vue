@@ -38,96 +38,86 @@ const args = ref({
         }
     },
     {
-      "label": "Charts",
+      "label": "Notification",
+      "icon": "notification-bell-outline",
+      "type": "route",
+      "route": {
+          "path": "/notification",
+          "name": "notification"
+        }
+    },
+    {
+      "label": "Forms",
+      "icon": "clipboard-outline",
+      "type": "route",
+      "route": {
+          "path": "/forms",
+          "name": "forms"
+        }
+    },
+    {
+      "label": "Navigation",
+      "icon": "expand-outline",
+      "type": "route",
+      "route": {
+          "path": "/navigation",
+          "name": "navigation"
+        }
+    },
+    {
+      "label": "Containers",
       "icon": "dashboard-outline",
+      "type": "route",
+      "route": {
+          "path": "/containers",
+          "name": "containers"
+        }
+    },
+    {
+      "label": "Overlays",
+      "icon": "test-tube-outline",
+      "type": "route",
+      "route": {
+          "path": "/overlays",
+          "name": "overlays"
+        }
+    },
+    {
+      "label": "Loaders",
+      "icon": "refresh-outline",
+      "type": "route",
+      "route": {
+          "path": "/loaders",
+          "name": "loaders"
+        }
+    },
+    {
+      "label": "Structural",
+      "icon": "layers-outline",
+      "type": "route",
+      "route": {
+          "path": "/structural",
+          "name": "structural"
+        }
+    },
+    {
+      "label": "Utils",
+      "icon": "bullseye-outline",
+      "type": "route",
+      "route": {
+          "path": "/utils",
+          "name": "utils"
+        }
+    },
+    {
+      "label": "Charts",
+      "icon": "chart-column-outline",
       "type": "route",
       "route": {
           "path": "/charts",
           "name": "charts"
         }
     },
-    // {
-    //   "label": "Links",
-    //   "icon": "link-outline",
-    //   "items": [
-    //     {
-    //       "label": "Panel (Tv)",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       },
-    //       "type": "external"
-    //     },
-    //     {
-    //       "label": "Totem",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       },
-    //       "type": "external"
-    //     }
-    //   ]
-    // },
-    // {
-    //   "label": "Reports",
-    //   "icon": "printer-outline",
-    //   "type": "route",
-    //   "route": {
-    //       "path": "/home",
-    //       "name": "home"
-    //     }
-    // },
-    // {
-    //   "label": "Settings",
-    //   "icon": "settings-outline",
-    //   "type": "route",
-    //   "items": [
-    //     {
-    //       "label": "Panel (Tv)",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       }
-    //     },
-    //     {
-    //       "label": "Totem",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       }
-    //     },
-    //     {
-    //       "label": "Services",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       }
-    //     },
-    //     {
-    //       "label": "Categories",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       }
-    //     },
-    //     {
-    //       "label": "Priorities",
-    //       "route": {
-    //         "path": "/home",
-    //         "name": "home"
-    //       }
-    //     }
-    //   ]
-    // },
-    // {
-    //   "label": "Support",
-    //   "icon": "lifebuoy-outline",
-    //   "type": "link",
-    //   "route": {
-    //       "path": "/home",
-    //       "name": "home"
-    //   }
-    // }
   ],
   sideBarActiveItem: {
     // "label": "Settings",
