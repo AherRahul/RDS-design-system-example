@@ -4,8 +4,8 @@
             :data="chartData"
             :variant="variant"
             :labels="chartLabels"
-            :fill="true"
-            :isDashed="true"
+            :fill="false"
+            :isDashed="false"
             :borderDash="borderDash"
             :xAxisRange="xAxisRange"
             :yAxisRange="yAxisRange"
@@ -54,9 +54,9 @@
                 "2024-03-29",
                 "2024-03-30"
             ],
-            variant: 'dark',
+            variant: 'green',
             borderDash: [ 5, 5 ],
-            smoothing: 0.5,
+            smoothing: 0,
             showLabelName: true,
             scales: {
                 "x": {

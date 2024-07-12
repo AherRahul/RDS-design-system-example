@@ -20,7 +20,7 @@
                 "April",
                 "May"
             ],
-            variant: 'green',
+            variant: 'blue',
             chartData: [
                 {
                     "name": "Echocardiogram",

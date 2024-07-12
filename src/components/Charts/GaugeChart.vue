@@ -3,6 +3,7 @@
         <rds-gauge-chart
             :variant="variant"
             :value="value"
+            :size="size"
             :target="target"
             :subtitle="subtitle"
         >
@@ -22,7 +23,7 @@
         return {
             value: 79,
             target: 85,
-            variant: 'dark',
+            variant: 'green',
             size: 200,
             subtitle: 'Targeted Sell' 
         }
@@ -32,9 +33,5 @@
   </script>
   
   <style>
-  .responsive-container canvas {
-    height: 250px !important;
-    width: 100% !important;
-  }
   </style>
   

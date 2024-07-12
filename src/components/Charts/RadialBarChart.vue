@@ -1,10 +1,9 @@
 <template>
     <div>
         <rds-donut-chart
-            :data="chartData"
-            :labels="chartLabels"
             :variant="variant"
-            :isVisiblePointNames="isVisiblePointNames"
+            :data="data"
+            :labels="chartLabels"
         />
     </div>
   </template>
@@ -14,40 +13,46 @@
     name: 'RadialBarChart',
     data() {
         return {
+			theme: 'green',
+            data: [
+                {
+                    "datasets": [
+                        {
+                            "label": "January",
+                            "data": [
+                                3000
+                            ],
+                        }
+                    ]
+                },
+                {
+                    "datasets": [
+                        {
+                            "label": "February",
+                            "data": [
+                                2000
+                            ],
+                        }
+                    ]
+                },
+                {
+                    "datasets": [
+                        {
+                            "label": "March",
+                            "data": [
+                                1500
+                            ],
+                        }
+                    ]
+                }
+            ],
+            variant: 'green',
             chartLabels: [
                 "January",
                 "February",
                 "March",
             ],
-			theme: 'dark',
-            variant: 'dark',
-            isVisiblePointNames: true,
-            chartData: [
-				{
-					datasets: [
-						{
-							label: 'January',
-							data: [3000],
-						},
-					]
-				},
-				{
-					datasets: [
-						{
-							label: 'February',
-							data: [2000],
-						},
-					],
-				},
-				{
-					datasets: [
-						{
-							label: 'March',
-							data: [1500],
-						},
-					],
-				},
-			],
+            colors: ['green', 'turquoise', 'orange'],
         }
     },
     mounted () {}
@@ -55,9 +60,5 @@
   </script>
   
   <style>
-  .responsive-container canvas {
-    height: 250px !important;
-    width: 100% !important;
-  }
   </style>
   

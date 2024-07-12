@@ -63,19 +63,28 @@
                     <rds-grid class="mt(10)" style="margin-top: 3%;">
                         <rds-row>
                             <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
+                                <h3 style="text-align: center;"> Donut chart (Green Them)</h3>
                                 <donut-chart-1 />
                             </rds-col>
 
                             <rds-divider :vertical="true" />
 
                             <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
+                                <h3 style="text-align: center;"> Donut chart (Blue Them)</h3>
                                 <donut-chart-2 />
                             </rds-col>
                             
                             <rds-divider :vertical="true" />
 
-                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4">
-                                <radial-bar-chart />
+                            <rds-col cols="4" offset="0" colsAtS="12" colsAtM="12" colsAtL="4" colsAtXl="4" class="radial-chart-container">
+                                <h3 style="text-align: center;"> Radial chart</h3>
+                                <radial-bar-chart v-if="showRadialChart" />
+                                <div class="center-loader" v-else>
+                                    <rds-spinner
+                                        variant="green"
+                                        size="lg"
+                                    />
+                                </div>
                             </rds-col>
                         </rds-row>
                     </rds-grid>
@@ -110,7 +119,9 @@
       RadialBarChart
     },
     data() {
-      return {}
+      return {
+        showRadialChart: false,
+      }
     }
   }
   </script>
@@ -124,5 +135,14 @@
         }
     }
 
+    .radial-chart-container {
+        position: relative;
+        height: 250px;
+    }
+    .center-loader {
+        position: absolute;
+        top: 55%;
+        left: 45%;
+    }
   </style>
   
