@@ -5,7 +5,7 @@
                 <rds-col cols="2" offset="0" colsAtS="12" colsAtM="12" colsAtL="2" colsAtXl="2">
                     <rds-button
                         variant="green"
-                        size="md"
+                        size="sm"
                         text="Open"
                         @click="showActionBar = !showActionBar"
                     />
@@ -33,7 +33,7 @@
   
   <script>
   export default {
-    name: 'BarChart',
+    name: 'ActionBar',
     props: {
         light: {
             type: Boolean,
