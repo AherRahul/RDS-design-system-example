@@ -2,7 +2,7 @@
     <div style="padding: 5px">
         <rds-grid>
             <rds-row>
-                <rds-col  cols="10" offset="0" colsAtS="12" colsAtM="12" colsAtL="10" colsAtXl="10">
+                <rds-col cols="10" offset="0" colsAtS="12" colsAtM="12" colsAtL="10" colsAtXl="10">
                     <rds-actions-list
                         :actions="actions"
                         :numberOfExpandedActions="numberOfExpandedActions"
@@ -63,13 +63,6 @@
   </script>
   
   <style>
-  .responsive-container canvas {
-    height: 250px !important;
-    width: 100% !important;
-  }
   
-  .pt-1 {
-    padding-top: 0.5rem;
-  }
   </style>
   

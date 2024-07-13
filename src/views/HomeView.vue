@@ -2,18 +2,17 @@
   <div class="home">
     <div class="container-fluid">
       <!-- Content here -->
-      <div class="row">
-        <div class="col">
-          <div>
-            <h1><strong> Welcome to RDS </strong></h1>
-          </div>
-          <div>
-            <p>RDS is Rahul Aher's Design System. It is the materialization of all our 
+      <div class="home-header">
+        <rds-row>
+          <div class="header-content">
+            <h1>RDS - Welcome to RDS</h1>
+            <p>
+              RDS is Rahul Aher's Design System. It is the materialization of all our 
               principles and foundation, encompassing our way of thinking about design, 
               implementation and care for people.
             </p>
           </div>
-        </div>
+        </rds-row>
       </div>
       <div class="mt-3">
         <div>
@@ -122,6 +121,7 @@
     min-height: 100%;
     display: flex;
     align-items: center;
+    padding-bottom: 5rem;
   }
 }
 

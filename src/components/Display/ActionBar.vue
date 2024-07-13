@@ -76,13 +76,6 @@
   </script>
   
   <style>
-  .responsive-container canvas {
-    height: 250px !important;
-    width: 100% !important;
-  }
   
-  .pt-1 {
-    padding-top: 0.5rem;
-  }
   </style>
   

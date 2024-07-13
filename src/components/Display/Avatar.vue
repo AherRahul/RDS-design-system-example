@@ -21,7 +21,7 @@
     props: {
         src: {
             type: String,
-            default:"../../../public/img/avatar/marcel-golob.jpg",
+            default:"https://res.cloudinary.com/duojkrgue/image/upload/v1597061293/epecvtfhk1afumio20x2.jpg",
         },
         variant: {
             type: String,
@@ -52,27 +52,11 @@
         }
     },
     mounted () {},
-    methods: {
-        logAction() {
-            console.log("logAction called");
-        },
-
-        logClose() {
-            console.log("logClose called");
-            this.showActionBar = false;
-        }
-    },
+    methods: {},
   }
   </script>
   
   <style>
-  .responsive-container canvas {
-    height: 250px !important;
-    width: 100% !important;
-  }
   
-  .pt-1 {
-    padding-top: 0.5rem;
-  }
   </style>
   
