@@ -5,21 +5,17 @@
       <div class="home-header">
         <rds-row>
           <div class="header-content">
-            <h1>RDS - Welcome to RDS</h1>
+            <h1>RDS - Welcome</h1>
             <p>
               RDS, which stands for Rahul Aher's Design System, represents the culmination of our fundamental 
               principles and unwavering commitment to design excellence, implementation integrity, and user-centric 
               innovation. This meticulously crafted framework serves as the bedrock of our design philosophy, 
               offering a cohesive blueprint for developing seamless and engaging user interfaces across all our digital products.
-              At its core, RDS is more than just a collection of design guidelines - it is a comprehensive ecosystem 
-              designed to foster intuitive interactions and ensure consistency in every facet of our user experience. 
-              By encapsulating our collective expertise and best practices, RDS empowers our teams to deliver products 
-              that not only meet but exceed user expectations, blending aesthetics with functionality seamlessly.
             </p>
           </div>
         </rds-row>
       </div>
-      <div class="mt-3 pi-1">
+      <div class="mt-3">
         <div>
           <div>
             <h2><strong>Principles:</strong></h2>
@@ -138,8 +134,5 @@
   margin-top: 3%;
 }
 
-.pi-1 {
-  padding-inline: 1rem;
-}
 
 </style>
