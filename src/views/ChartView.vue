@@ -1,7 +1,7 @@
 <template>
-    <div class="dashboard">
+    <div class="chart">
         <div class="container-fluid">
-            <div class="dashboard-header">
+            <div class="chart-header">
                 <rds-row>
                     <div class="header-content">
                         <h1>RDS - Chart's</h1>
@@ -21,8 +21,8 @@
                 </rds-row>
                 <rds-divider :width="0" style="margin-top: 2%; margin-bottom: 2%;" />
             </div>
-            <div class="dashboard-content">
-                <div class="dashboard-main">
+            <div class="chart-content">
+                <div class="chart-main">
                     <rds-grid>
                         <rds-row>
                             <rds-col cols="8" offset="0" colsAtS="12" colsAtM="12" colsAtL="8" colsAtXl="8">
@@ -194,10 +194,11 @@
   <style lang="scss" scoped>
 
     @media (min-width: 1024px) {
-        .dashboard {
+        .chart {
             min-height: 100%;
             display: flex;
             align-items: center;
+            padding-bottom: 10rem;
         }
     }
     
