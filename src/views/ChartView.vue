@@ -157,10 +157,6 @@
         margin-bottom: 2%;
     }
 
-    .header-content {
-        padding: 1%;
-    }
-
     .radial-chart-container {
         position: relative;
         height: 250px;

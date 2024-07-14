@@ -2,7 +2,7 @@
     <div style="padding: 5px">
         <rds-grid>
             <rds-row>
-                <rds-col  cols="10" offset="0" colsAtS="12" colsAtM="12" colsAtL="10" colsAtXl="10">
+                <rds-col  cols="12" offset="0" colsAtS="12" colsAtM="12" colsAtL="12" colsAtXl="12">
                     <rds-empty-state
                         :image="image"
                         :image-description="imageDescription"
