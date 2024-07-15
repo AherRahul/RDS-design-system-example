@@ -309,6 +309,7 @@
       min-height: 100%;
       display: flex;
       align-items: center;
+      padding-bottom: 10rem;
     }
   }
   </style>

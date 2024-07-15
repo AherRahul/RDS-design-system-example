@@ -185,7 +185,7 @@
     // component data
     data() {
       return {
-        showRadialChart: false,
+        showRadialChart: true,
       }
     }
   }

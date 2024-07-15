@@ -1,6 +1,6 @@
 <template>
     <div>
-        <rds-donut-chart
+        <rds-radial-bar-chart
             :variant="variant"
             :data="data"
             :labels="chartLabels"
@@ -20,7 +20,7 @@
                         {
                             "label": "January",
                             "data": [
-                                3000
+                                1100
                             ],
                         }
                     ]
@@ -30,7 +30,7 @@
                         {
                             "label": "February",
                             "data": [
-                                2000
+                                1000
                             ],
                         }
                     ]
@@ -40,7 +40,7 @@
                         {
                             "label": "March",
                             "data": [
-                                1500
+                                700
                             ],
                         }
                     ]
