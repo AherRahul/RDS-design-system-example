@@ -3,7 +3,7 @@
         <rds-grid>
             <rds-row>
                 <rds-col  cols="12" offset="0" colsAtS="12" colsAtM="12" colsAtL="12" colsAtXl="12">
-                    
+                    <rds-loading-bar />
                 </rds-col>
             </rds-row>
         </rds-grid>

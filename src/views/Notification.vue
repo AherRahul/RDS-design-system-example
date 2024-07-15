@@ -146,8 +146,9 @@
               <h5>1. variant="green" position="top-end"</h5>
 
               <pulsar
-                position="top-end"
+                position="top-start"
                 variant="green"
+                targetId="targetId1"
               />
             </rds-col>
 
@@ -155,8 +156,9 @@
               <h5>2. variant="blue" position="bottom"</h5>
 
               <pulsar
-                position="bottom"
+                position="top"
                 variant="blue"
+                targetId="targetId2"
               />
             </rds-col>
 
@@ -166,6 +168,7 @@
               <pulsar
                 position="left-end"
                 variant="red"
+                targetId="targetId3"
               />
             </rds-col>
           </rds-row>
@@ -209,7 +212,6 @@
             </rds-col>
           </rds-row>
         </rds-grid>
-        
         
       </div>
     </div>

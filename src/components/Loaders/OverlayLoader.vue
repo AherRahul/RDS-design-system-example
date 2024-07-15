@@ -3,7 +3,17 @@
         <rds-grid>
             <rds-row>
                 <rds-col  cols="12" offset="0" colsAtS="12" colsAtM="12" colsAtL="12" colsAtXl="12">
-                    
+                    <rds-button
+                        variant="green"
+                        size="sm"
+                        text="Open"
+                        @click="loadOverlayLoader"
+                    />
+                    <rds-overlay-loader
+                        v-if="showOverlayLoader"
+                        variant="green"
+                        size="lg"
+                    />
                 </rds-col>
             </rds-row>
         </rds-grid>
@@ -17,10 +27,20 @@
 
     },
     data() {
-        return {}
+        return {
+            showOverlayLoader: false,
+        }
     },
     mounted () {},
-    methods: {},
+    methods: {
+        loadOverlayLoader() {
+            this.showOverlayLoader = true;
+
+            setTimeout(() => {
+                this.showOverlayLoader = false;
+            }, 5000);
+        }
+    },
   }
   </script>
   

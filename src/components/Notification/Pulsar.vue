@@ -3,11 +3,11 @@
         <rds-grid>
             <rds-row>
                 <rds-col  cols="10" offset="0" colsAtS="12" colsAtM="12" colsAtL="10" colsAtXl="10">
-                    <div id="pulsar-target" style="width: fit-content;">Pulsar target</div>
+                    <div :id="targetId">Pulsar target</div>
                     <rds-pulsar
                         :variant='variant'
                         :position='position'
-                        targetId="pulsar-target"
+                        :targetId="targetId"
                     >
                     </rds-pulsar>
                 </rds-col>
@@ -34,6 +34,10 @@
 		position: {
 			type: String,
 			default: 'top-end',
+		},
+        targetId: {
+			type: String,
+			default: 'pulsar-target',
 		},
     },
     data() {
