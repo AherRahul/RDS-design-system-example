@@ -22,3 +22,7 @@ p {
     text-align: justify;
     /* padding-right: 3rem; */
 }
+
+.page-container__container {
+    max-width: 1300px !important;
+}
