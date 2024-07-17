@@ -39,8 +39,8 @@
                     icon: 'dashboard-outline',
                     type: 'route',
                     route: {
-                        path: '/dashboard',
-                        name: 'dashboard'
+                        path: '/navigation',
+                        name: 'navigation'
                     },
                 },
                 {
@@ -48,8 +48,8 @@
                     icon: 'clipboard-text-outline',
                     type: 'route',
                     route: {
-                        path: '/attendance',
-                        name: 'attendance'
+                        path: '/navigation',
+                        name: 'navigation'
                     },
                 },
                 {
@@ -67,8 +67,8 @@
                         {
                             label: 'Totem',
                             route: {
-                                path: '/totem-link',
-                                name: 'totem',
+                                path: '/navigation',
+                                name: 'navigation',
                             },
                             type: 'external',
                         },
@@ -79,8 +79,8 @@
                     icon: 'printer-outline',
                     type: 'route',
                     route: {
-                        path: '/reports',
-                        name: 'page2'
+                        path: '/navigation',
+                        name: 'navigation'
                     },
                 },
                 {
@@ -91,36 +91,36 @@
                         {
                             label: 'Panel (Tv)',
                             route: {
-                                path: '/tv',
-                                name: 'tv'
+                                path: '/navigation',
+                                name: 'navigation'
                             }
                         },
                         {
                             label: 'Totem',
                             route: {
-                                path: '/totem',
-                                name: 'totem',
+                                path: '/navigation',
+                                name: 'navigation',
                             },
                         },
                         {
                             label: 'Services',
                             route: {
-                                path: '/services',
-                                name: 'services',
+                                path: '/navigation',
+                                name: 'navigation',
                             },
                         },
                         {
                             label: 'Categories',
                             route: {
-                                path: '/categories',
-                                name: 'categories',
+                                path: '/navigation',
+                                name: 'navigation',
                             }
                         },
                         {
                             label: 'Priorities',
                             route: {
-                                path: '/priorities',
-                                name: 'priorities',
+                                path: '/navigation',
+                                name: 'navigation',
                             },
                         },
                     ]
@@ -130,8 +130,8 @@
                     icon: 'lifebuoy-outline',
                     type: 'link',
                     route: {
-                        path: '/support',
-                        name: 'support',
+                        path: '/navigation',
+                        name: 'navigation',
                     },
                 },
             ],

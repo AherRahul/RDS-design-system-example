@@ -33,21 +33,21 @@
                 {
                     label: 'Reports',
                     route: {
-                        // path: '/reports',
+                        path: '/navigation',
                         name: 'reports'
                     },
                 },
                 {
                     label: 'Individualized reports',
                     route: {
-                        // path: '/individualized-reports',
+                        path: '/navigation',
                         name: 'individualized'
                     },
                 },
                 {
                     label: 'User Report',
                     route: {
-                        // path: '/users-reports',
+                        path: '/navigation',
                         name: 'users'
                     },
                 },

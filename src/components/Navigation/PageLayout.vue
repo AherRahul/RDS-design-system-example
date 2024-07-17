@@ -44,8 +44,8 @@
                     "icon": "edit-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/display",
-                        "name": "display"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -53,8 +53,8 @@
                     "icon": "notification-bell-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/notification",
-                        "name": "notification"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -62,8 +62,8 @@
                     "icon": "clipboard-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/forms",
-                        "name": "forms"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -71,7 +71,7 @@
                     "icon": "expand-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/navigation",
+                        "path": "/navigation",
                         "name": "navigation"
                         }
                     },
@@ -80,8 +80,8 @@
                     "icon": "dashboard-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/containers",
-                        "name": "containers"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -89,8 +89,8 @@
                     "icon": "test-tube-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/overlays",
-                        "name": "overlays"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -98,8 +98,8 @@
                     "icon": "refresh-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/loaders",
-                        "name": "loaders"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -107,8 +107,8 @@
                     "icon": "layers-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/structural",
-                        "name": "structural"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -116,8 +116,8 @@
                     "icon": "bullseye-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/utils",
-                        "name": "utils"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                     {
@@ -125,8 +125,8 @@
                     "icon": "chart-column-outline",
                     "type": "route",
                     "route": {
-                        // "path": "/charts",
-                        "name": "charts"
+                        "path": "/navigation",
+                        "name": "navigation"
                         }
                     },
                 ],
@@ -184,7 +184,7 @@
                     "key": "home",
                     "label": "Home",
                     "route": {
-                        // "name": "home"
+                        "name": "navigation"
                     }
                     },
                     {
@@ -195,14 +195,14 @@
                         "key": "productivity",
                         "label": "Productivity report",
                         "route": {
-                            // "name": "about"
+                            "name": "navigation"
                         }
                         },
                         {
                         "key": "timesheet",
                         "label": "Time sheet",
                         "route": {
-                            // "name": "about"
+                            "name": "navigation"
                         }
                         }
                     ]

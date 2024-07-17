@@ -366,8 +366,8 @@
                 icon: 'home-outline',
                 type: 'route',
                 route: {
-                path: '/home',
-                name: 'home'
+                path: '/navigation',
+                name: 'navigation'
                 },
             },
             {
@@ -375,8 +375,8 @@
                 icon: 'shield-outline',
                 type: 'route',
                 route: {
-                path: '/visa',
-                name: 'visa'
+                path: '/navigation',
+                name: 'navigation'
                 },
             },
             {
@@ -384,8 +384,8 @@
                 icon: 'calendar-outline',
                 type: 'route',
                 route: {
-                path: '/regulation',
-                name: 'regulation'
+                path: '/navigation',
+                name: 'navigation'
                 },
             },
             {
@@ -393,8 +393,8 @@
                 icon: 'heart-rate-outline',
                 type: 'route',
                 route: {
-                path: '/medical-care',
-                name: 'medical-care',
+                path: '/navigation',
+                name: 'navigation',
                 },
             },
         ],
