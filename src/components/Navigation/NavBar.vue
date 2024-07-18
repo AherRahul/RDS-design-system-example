@@ -27,22 +27,22 @@
                 {
                     label: 'Risk group map',
                     route: {
-                        // path: '/map',
-                        name: 'main'
+                        path: '/navigation',
+                        name: 'navigation'
                     },
                 },
                 {
                     label: 'Healthy League',
                     route: {
-                        // path: '/liga-saudavel',
-                        name: 'page1'
+                        path: '/navigation',
+                        name: 'navigation'
                     },
                 },
                 {
                     label: 'Neighborhood heat map',
                     route: {
-                        // path: '/heatmap',
-                        name: 'page2'
+                        path: '/navigation',
+                        name: 'navigation'
                     },
                 },
             ],
